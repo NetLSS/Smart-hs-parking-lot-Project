@@ -1,4 +1,10 @@
 Proto type  apache webserver code
 
 
-rasp(pwd) : /var/www/html
+rasp(pwd) : /var/www/html/
+
+Plan:  Use apache Web Server
+       form : index.html (pwd:/var/www/html/)
+       
+       we take photo from python(opencv)
+       cover filename img.JPG image file  and  txt.text  detail text file
