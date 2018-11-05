@@ -1,0 +1,41 @@
+<html>
+ <head>
+  <title> 이벤트 </title>
+  <script language="JavaScript">
+   function loadEvent(){
+    alert("페이지가 로드 되었습니다.");
+   }
+   function unloadEvent(){
+    alert("페이지를 떠납니다.");
+   }
+   function clickEvent(){
+    alert("버튼 1을 클릭합니다. ");
+   }
+   function clickEvent2(){
+    alert("버튼 2를 클릭합니다. ");
+   }
+   function focusEvent(){
+    window.status="Focus이벤트 발생 상태입니다.";
+    
+    alert("버튼 3 focus ! ");
+   }
+   function blurEvent(){
+    window.status="Blur 이벤트 발생 상태입니다.";
+    alert("버튼 3 Blur ! ");
+   }
+  </script>
+ </head>
+ <body onLoad="loadEvent()" onunload="unloadEvent()">
+  <form>
+   <input type="button" value="버튼1" onclick="clickEvent()">
+   <input type="button" value="버튼2" onclick="clickEvent2()"><br/>
+   <img src="./img.jpg" width="100" height="200"><br/>
+   <div><object data="txt.txt"></object></div>
+  </form>
+  
+ </body>
+</html>
+
+
+
+</body>
