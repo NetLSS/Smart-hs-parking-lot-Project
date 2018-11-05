@@ -8,3 +8,6 @@ Plan:  Use apache Web Server
        
        we take photo from python(opencv)
        cover filename img.JPG image file  and  txt.text  detail text file
+
+
+we can change logic to 'split' function 'onLoad()' Hnadler instead of full-text, txt.text file  
