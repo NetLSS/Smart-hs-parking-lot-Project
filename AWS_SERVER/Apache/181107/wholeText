@@ -1,0 +1,26 @@
+index.html
+
+<html>
+	<head>
+		<title> ParkingLot </title>
+		
+	</head>
+	<body>
+
+		<div id="mainDiv">
+			<img src="./img.JPG"/ width=320 height=240 style="padding:10px">
+			<object data="./text.txt"style="padding:20px"></object>
+			
+		</div>
+	</body>
+
+</html>
+
+
+text.txt
+
+the number of Whole Sheat : 32
+
+the number of Used Sheat : 13
+
+the number of Empty: 19  
