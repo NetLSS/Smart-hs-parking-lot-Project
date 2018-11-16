@@ -1,0 +1,2 @@
+[Detect parking lot by opencv]
+https://stackoverflow.com/questions/34959455/detect-parking-lot-by-opencv
