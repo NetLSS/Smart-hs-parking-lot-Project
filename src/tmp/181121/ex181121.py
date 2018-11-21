@@ -25,7 +25,7 @@ for cnt in coutours:
 
 # 빨간 선 그리기           
 for cnt in coutours:
-    cv2.drawContours(img,[cnt],0,(0,0,255),1)  # img 이미지에  cnt (coutours는 Point들의 리스트형태) 좌표에 따라  0,0,255 (GBR) 색으로 선 그리기
+    cv2.drawContours(img,[cnt],0,(0,0,255),1)  # img 이미지에  cnt (coutours는 Point들의 리스트형태) 좌표에 따라  0,0,255 (GR) 색으로 선 그리기
     
 #findContours, drawCoutours 참조: https://opencv-python.readthedocs.io/en/latest/doc/15.imageContours/imageContours.html 참조
 
