@@ -28,9 +28,9 @@ for cnt in coutours:
     cv2.drawContours(img,[cnt],0,(0,0,255),1)
 #findContours, drawCoutours 참조: https://opencv-python.readthedocs.io/en/latest/doc/15.imageContours/imageContours.html 참조
 
-
-epsilon = 0.1 * cv2.arcLength(cnt,True)
-approx = cv2.approxPolyDP(cnt,epsilon,True)
+# 예제에 있는 것 가져왔으나 없어도 똑같이 작동함 ( epsilon으로 더 정밀하게 하는 알고리즘으로 기억)
+#epsilon = 0.1 * cv2.arcLength(cnt,True)
+#approx = cv2.approxPolyDP(cnt,epsilon,True)
 
 
 
