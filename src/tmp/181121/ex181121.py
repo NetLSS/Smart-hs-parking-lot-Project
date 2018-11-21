@@ -19,9 +19,7 @@ image, coutours, hierachy = cv2.findContours(threshold,cv2.RETR_TREE,cv2.CHAIN_A
 #영역을 자를 때 220~1000 (y좌표) 를 사용했으므로   y좌표에 +220을 해준다.
 for cnt in coutours:
     for i in range(0, len(cnt)):
-         print(i,end=' ')
          cnt[i][0][1] = cnt[i][0][1] + 220
-         print(cnt[i][0][1])
 
 # 빨간 선 그리기           
 for cnt in coutours:
